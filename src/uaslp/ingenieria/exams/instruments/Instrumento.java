@@ -1,8 +1,10 @@
 package uaslp.ingenieria.exams.instruments;
 
-public enum Instrumento {
-    PIANO,
-    GUITARRA,
-    FLAUTA,
-    VIOLIN
+import uaslp.ingenieria.exams.Nota;
+
+public abstract class Instrumento {
+
+    public void tocar(Nota nota){
+        System.out.println("Sin instrumento.");
+    }
 }
